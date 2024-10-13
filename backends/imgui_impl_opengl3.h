@@ -30,6 +30,7 @@
 #include "imgui.h"      // IMGUI_IMPL_API
 #ifndef IMGUI_DISABLE
 
+
 // Follow "Getting Started" link and check examples/ folder to learn about using backends!
 IMGUI_IMPL_API bool     ImGui_ImplOpenGL3_Init(const char* glsl_version = nullptr);
 IMGUI_IMPL_API void     ImGui_ImplOpenGL3_Shutdown();
@@ -60,6 +61,7 @@ IMGUI_IMPL_API void     ImGui_ImplOpenGL3_DestroyDeviceObjects();
 #define IMGUI_IMPL_OPENGL_ES2               // Emscripten    -> GL ES 2, "#version 100"
 #else
 // Otherwise imgui_impl_opengl3_loader.h will be used.
+
 #endif
 
 #endif
